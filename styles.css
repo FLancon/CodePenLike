@@ -1,0 +1,65 @@
+textarea {
+    width: 90%;
+    margin-top: 2rem;
+    margin-left: 2rem;
+
+    resize: none;
+}
+
+section {
+    position: relative;
+}
+section span {
+    position: absolute;
+    top:100%;
+    right:10%;
+}
+
+h1 {
+    margin:2rem;
+}
+
+h2 {
+    margin:2rem;
+}
+
+
+button:first-child {
+    margin-left: 2rem;
+}
+
+
+progress {
+    margin-left: 2rem;
+
+}
+
+ 
+#myProgress {
+    margin-left: 2rem;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+}
+
+#myBar {
+    width: 0%;
+    height: 10px;
+    border-radius: 5px;
+    background: rgb(37, 223, 111);
+    transition: background 1s ease;
+}
+
+p {
+    padding-left: 2rem;
+}
+
+img {
+    visibility: hidden;
+    margin-left:rem;
+    height:30px;
+    padding-top: 35px;
+}
+
+#codingTitle {
+    Display: flex;
+}
